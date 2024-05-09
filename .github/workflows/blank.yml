@@ -29,3 +29,5 @@ jobs:
         run: |
           echo GITHUB_REPOSITORY=${GITHUB_REPOSITORY}
           echo Repo Name=${GITHUB_REPOSITORY#*/}
+          echo github.repository=${github.repository}
+          echo Repo Name=${github.repository#*/}
