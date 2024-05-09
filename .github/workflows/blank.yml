@@ -31,3 +31,4 @@ jobs:
           echo Repo Name=${GITHUB_REPOSITORY#*/}
           echo github.repository=${github.repository}
           echo Repo Name=${github.repository#*/}
+          echo github.event.repository.name=${{github.event.repository.name}}
